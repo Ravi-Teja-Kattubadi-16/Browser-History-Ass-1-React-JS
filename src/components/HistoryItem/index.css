@@ -1,0 +1,141 @@
+@media (max-width: 767px) {
+  .larger-screen {
+    display: none;
+  }
+  .list-item {
+    list-style-type: none;
+  }
+  .history-item-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-right: 17px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .item-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .time-accessed1 {
+    color: #64748b;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+    /* padding-right: 60px; */
+  }
+  .title1 {
+    font-size: 35px;
+    /* padding-right: 10px; */
+    font-weight: 500;
+    /* margin-right: 0px; */
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .logo1 {
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    margin-right: 25px;
+  }
+  .domain-url1 {
+    color: #475569;
+    font-size: 27px;
+    /* padding-right: 100px; */
+  }
+  .title-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+  }
+  .inner-title-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0;
+    margin-top: 0;
+    width: 60%;
+  }
+  .delete-icon1 {
+    /* padding-right: 50px; */
+    align-items: center;
+    height: 50px;
+    width: 50px;
+  }
+  .button {
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+  }
+}
+
+@media (min-width: 768px) {
+  .smaller-screen {
+    display: none;
+  }
+  .list-item {
+    list-style-type: none;
+  }
+  .history-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 17px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .time-accessed {
+    color: #64748b;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 60px;
+  }
+  .title {
+    font-size: 18px;
+    padding-right: 15px;
+    font-weight: 500;
+    /* margin-right: 0px; */
+  }
+  .logo {
+    height: 33px;
+    width: 33px;
+    margin-right: 20px;
+  }
+  .domain-url {
+    color: #475569;
+    font-size: 18px;
+    /* padding-right: 100px; */
+  }
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  .inner-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .delete-icon {
+    /* padding-right: 50px; */
+    align-items: center;
+    cursor: pointer;
+  }
+  .button {
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+  }
+}
